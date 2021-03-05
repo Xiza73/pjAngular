@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --brown-over: #626567;
+  --red-over: #8d6e63;
+  --red-light: #d87f5ea2;
+}
