@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 button {
     border-radius: 0
 }
@@ -239,9 +240,66 @@ input {
         visibility: hidden;
     }
 }
-
-@media (max-width: 425px) {
-    .banner {
-        padding: 70px 0px 150px;
-    }
+=======
+.banner--container {
+	display: flex;
+	justify-content: start;
+	align-items: center;
 }
+
+.banner-item {
+	padding: 40px;
+}
+
+.banner-item h1 {
+	font: 500 30px/135% 'Open Sans', sans-serif;
+	color: #fff;
+	margin: 0 0 25px;
+}
+
+.banner-item p {
+	font: 400 18px/155% 'Open Sans', sans-serif;
+	color: #fff;
+	margin: 0 0 25px;
+	transform: translate();
+}
+
+.banner-cta a {
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: #19af83;
+	border-radius: 28px;
+	color: #fff;
+	transition: all 0.25s ease 0s;
+	font: 400 16px/155% 'Open Sans', sans-serif;
+}
+
+.banner-cta a:hover {
+	transition: all 0.25s ease 0s;
+	background-color: #fff;
+	color: #19af83;
+}
+
+.banner-cta .cta-1 {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+@media (min-width: 425px) {
+    .banner--container {
+		margin-top: 20px;
+	}
+}
+
+@media (min-width:768px) {
+    .banner--container {
+		margin-top: 40px;
+		padding-left: 50px;
+	}
+	#banner--carousel {
+		width: 80%;
+	}
+}
+
+>>>>>>> 7dc6c3a7ca226f22c3b7b2e768b1ef5e8d809ffd
+

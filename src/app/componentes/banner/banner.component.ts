@@ -10,8 +10,8 @@ export class BannerComponent implements OnInit {
 
   constructor(private _CargaScripts:CargarScriptsService){
     _CargaScripts.Carga([
-      "all-plugins",
       "jquery-3.2.1.min",
+      "all-plugins",
       "plugin-active"
     ])
   }
