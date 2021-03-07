@@ -5,12 +5,14 @@ import { APP_ROUTING } from './app.routes';
 import { AppRoutingModule } from './app-routing.module';
 
 //Servicios
+import { CargarScriptsService } from './services/cargar-scripts.service';
 
 //Componentes
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HomeComponent } from './componentes/home/home.component';
+import { BannerComponent } from './componentes/banner/banner.component';
 
 
 @NgModule({
@@ -18,14 +20,17 @@ import { HomeComponent } from './componentes/home/home.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [
+    CargarScriptsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
