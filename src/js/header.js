@@ -18,8 +18,9 @@ $(window).on('load', function () {
 
 $(window).scroll(function () {
     var scroll = $(window).scrollTop();
+    var box = $('.banner-home').height();
     var header = $('header').height();
-    if (scroll >= box - 500) {
+    if (scroll >= 200 - header) {
         $("header").addClass("background-header");
     } else {
         $("header").removeClass("background-header");
