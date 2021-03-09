@@ -16,6 +16,7 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { CardsComponent } from './componentes/cards/cards.component';
 import { ContactanosComponent } from './componentes/contactanos/contactanos.component';
 import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
+import { NuestrosserviciosComponent } from './componentes/nuestrosservicios/nuestrosservicios.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
     CardsComponent,
     ContactanosComponent,
     NosotrosComponent,
+    NuestrosserviciosComponent,
   ],
   imports: [
     BrowserModule,

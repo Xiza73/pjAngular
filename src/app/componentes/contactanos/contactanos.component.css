@@ -26,7 +26,7 @@ body {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    height: 650px;
+    height: 510px;
 }
 
 #contact input[type="text"],
@@ -139,6 +139,6 @@ fieldset {
 }
 
 .contact {
-    padding-top: 100px;
+    padding-top: 80px;
     background-color: #626567;
 }
