@@ -13,6 +13,8 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { BannerComponent } from './componentes/banner/banner.component';
+import { ContactanosComponent } from './componentes/contactanos/contactanos.component';
+import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { BannerComponent } from './componentes/banner/banner.component';
     FooterComponent,
     HomeComponent,
     BannerComponent,
+    ContactanosComponent,
+    NosotrosComponent,
   ],
   imports: [
     BrowserModule,
