@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "pug-it": "pug src",
+    "pug-it:w": "pug src -P -w"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +25,8 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^4.6.0",
     "jquery": "^3.6.0",
+    "ng-cli-pug-loader": "^0.2.2",
+    "pug": "^3.0.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
@@ -41,7 +45,9 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "npm-run-all": "^4.1.5",
     "protractor": "~7.0.0",
+    "pug-cli": "^1.0.0-alpha6",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.2"

@@ -1,61 +1,76 @@
+.banner-home {
+	height: 100vh;
+	width: 100%;
+    padding: 20vh 0px 0px;
+    /*background-color: #6a6a6a;*/
+	background-image: url(https://aldianews.com/sites/default/files/styles/article_image/public/articles/lawus.jpg?itok=f80USWhF);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 .banner--container {
-	display: flex;
-	justify-content: start;
-	align-items: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .banner-item {
-	padding: 40px;
+	height: 80vh;
+  padding: 40px;
 }
 
 .banner-item h1 {
-	font: 500 30px/135% 'Open Sans', sans-serif;
-	color: #fff;
-	margin: 0 0 25px;
+  font: 500 30px/135% 'Open Sans', sans-serif;
+  color: #fff;
+  margin: 0 0 25px;
 }
 
 .banner-item p {
-	font: 400 18px/155% 'Open Sans', sans-serif;
-	color: #fff;
-	margin: 0 0 25px;
-	transform: translate();
+  font: 400 18px/155% 'Open Sans', sans-serif;
+  color: #fff;
+  margin: 0 0 25px;
+  transform: translate();
 }
 
 .banner-cta a {
-	display: inline-block;
-	padding: 10px 30px;
-	background-color: #19af83;
-	border-radius: 28px;
-	color: #fff;
-	transition: all 0.25s ease 0s;
-	font: 400 16px/155% 'Open Sans', sans-serif;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #19af83;
+  border-radius: 28px;
+  color: #fff;
+  transition: all 0.25s ease 0s;
+  font: 400 16px/155% 'Open Sans', sans-serif;
 }
 
 .banner-cta a:hover {
-	transition: all 0.25s ease 0s;
-	background-color: #fff;
-	color: #19af83;
+  transition: all 0.25s ease 0s;
+  background-color: #fff;
+  color: #19af83;
 }
 
 .banner-cta .cta-1 {
-	display: inline-block;
-	margin-right: 15px;
+  display: inline-block;
+  margin-right: 15px;
 }
 
 @media (min-width: 425px) {
-    .banner--container {
-		margin-top: 20px;
+	.banner-home {
+		padding: 20vh 0px 0px;
+	}
+	.banner-item {
+		height: 70vh;
+		max-height: 400px;
+	  padding: 40px;
 	}
 }
 
 @media (min-width:768px) {
-    .banner--container {
-		margin-top: 40px;
-		padding-left: 50px;
-	}
-	#banner--carousel {
-		width: 80%;
-	}
+  .banner--container {
+    margin-top: 40px;
+    padding-left: 50px;
+  }
+
+  #banner--carousel {
+    width: 80%;
+  }
 }
-
-

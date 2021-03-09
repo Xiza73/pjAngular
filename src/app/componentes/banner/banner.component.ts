@@ -12,7 +12,8 @@ export class BannerComponent implements OnInit {
     _CargaScripts.Carga([
       "jquery-3.2.1.min",
       "all-plugins",
-      "plugin-active"
+      "plugin-active",
+      "banner-carousel"
     ])
   }
 
