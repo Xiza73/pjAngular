@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 //Rutas
 import { APP_ROUTING } from './app.routes';
 import { AppRoutingModule } from './app-routing.module';
@@ -34,7 +35,8 @@ import { NuestrosserviciosComponent } from './componentes/nuestrosservicios/nues
   imports: [
     BrowserModule,
     AppRoutingModule,
-    APP_ROUTING
+    APP_ROUTING,
+    FormsModule
   ],
   providers: [
     CargarScriptsService

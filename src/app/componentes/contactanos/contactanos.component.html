@@ -1,23 +1,25 @@
 <div class="contact contacmarg">
     <div class="container  ">
-        <form id="contact" action="" method="post">
+        <form id="contact" action="" onload="contactanos()">
             <h3>Contactanos</h3>
             <h4>Te responderemos en horario de 8:00 am - 4:00 pm!</h4>
             <fieldset>
-                <input placeholder="Escribe aqui tu nombre" type="text" tabindex="1" required autofocus>
+                <input id="form-name" placeholder="Escribe aqui tu nombre" type="text" tabindex="1" required autofocus>
             </fieldset>
             <fieldset>
-                <input placeholder="Escribe aqui tu correo electronico" type="email" tabindex="2" required>
+                <input id="form-email" placeholder="Escribe aqui tu correo electronico" type="email" tabindex="2" required>
             </fieldset>
             <fieldset>
-                <input placeholder="Escribe aqui tu tu numero de celular" type="tel" tabindex="3" required>
+                <div class="d-flex align-items-center">
+                    <p class="">+51</p>
+                    <input id="form-phone" placeholder="Escribe aqui tu numero de celular" type="text" minlength="9" maxlength="9" onkeypress="return soloNumeros(event)" tabindex="3" required>
+                </div>
             </fieldset>
-
             <fieldset>
-                <textarea placeholder="Escribe aqui tu mensaje..." tabindex="5" required></textarea>
+                <textarea id="form-message" placeholder="Escribe aqui tu mensaje..." tabindex="5" required></textarea>
             </fieldset>
             <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                <button name="contact" id="contact-submit">Enviar</button>
             </fieldset>
         </form>
 
